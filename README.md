@@ -18,3 +18,7 @@
       }
     }
 ```
+### 使用 button open-type="share" 组件时，有灰色边框 
+```
+给 button 添加 box-shadow:none 属性
+```
