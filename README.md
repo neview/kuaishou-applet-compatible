@@ -22,3 +22,25 @@
 ```
 给 button 添加 box-shadow:none 属性
 ```
+
+### 文字超出显示省略号 
+```
+overflow: hidden;
+text-overflow: ellipsis;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+```
+
+### scroll-view 区域不能滑动
+```
+去掉 overflow: hidden
+```
+
+### scroll-view 隐藏滚动条
+```
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+```
